@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Fair Trade Store",
+      "url": "https://fairtradestore.org",
+      "categories": ["bestOverall", "mostSustainable"],
+      "price": "$$",
+      "description": "This store focuses on ethically sourced products from around the globe.",
+      "image": "fairtradestore.jpg"
+    },
+    {
+      "name": "Ethical Made Easy",
+      "url": "https://ethicalmadeeasy.com",
+      "categories": ["mostSizeInclusive", "mostStylish"],
+      "price": "$$",
+      "description": "Offering a wide range of sizes and stylish designs, all ethically made.",
+      "image": "ethicalmadeeasy.jpg"
+    },
+    {
+      "name": "Sustainable Goods",
+      "url": "https://sustainablegoods.com",
+      "categories": ["mostAffordable"],
+      "price": "$",
+      "description": "Affordable everyday products made sustainably.",
+      "image": "sustainablegoods.jpg"
+    }
+  ]

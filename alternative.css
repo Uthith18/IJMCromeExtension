@@ -1,0 +1,159 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ededed;
+  }
+  
+  /* Header styles */
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077b6;
+    padding: 10px;
+  }
+  
+  .IJM_Logo {
+    height: 50px;
+    border-radius: 20px;
+  }
+  
+  .Close_Button {
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  /* Content styling */
+  .content {
+    padding: 20px;
+  }
+  
+  /* -- Categories Nav -- */
+  .categories-nav {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .categories-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 1em;
+  }
+  
+  .categories-nav li {
+    display: inline;
+  }
+  
+  .categories-nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .categories-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* -- Shop By Price Section -- */
+  .shop-price-section {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .shopByPrice {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .price-row {
+    display: inline-flex;
+    gap: 1.5em;
+  }
+  
+  .price-row a {
+    color: #0077b6;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .price-row a:hover {
+    text-decoration: underline;
+  }
+  
+  /* -- Website Header (Our Favourite...) -- */
+  .Website-headers {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 30px 0 20px;
+    font-weight: bold;
+  }
+  
+  /* -- Kotn Section -- */
+  .Container-header {
+    font-family: 'Optima', sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .Container-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #0077b6;
+  }
+  
+  .Container-paragraph {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .Container-header img {
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  /* -- Center text utility -- */
+  .center-text {
+    text-align: center;
+  }
+  
+  /* -- Shop Pact Button -- */
+  .wp-block-button__link.wp-element-button {
+    font-family: "Commuters Sans", sans-serif; /* or fallback */
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    line-height: 1rem;
+    background-color: transparent;
+    border: 2px solid grey;
+    color: grey;
+    text-decoration: none;
+    padding: 0.8em;
+    margin-top: 5px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .wp-block-button__link.wp-element-button:hover {
+    background-color: #0077b6;
+    color: #fff;
+  }

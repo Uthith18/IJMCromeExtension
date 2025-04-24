@@ -1,0 +1,117 @@
+/* IJM Extension – popup-only styles */
+
+/* Reset basic typography only inside the card */
+.ijm-popup,
+.ijm-popup h1,
+.ijm-popup p,
+.ijm-popup button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Card container */
+.ijm-popup {
+  width: 400px;
+  height: 500px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ── top bar ─────────────────────────────────────── */
+.ijm-popup .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0077b6;
+  padding: 10px;
+}
+
+.ijm-popup .IJM_Logo   { height: 50px; border-radius: 20px; }
+.ijm-popup .Close_Button { height: 20px; cursor: pointer; }
+
+/* ── middle section ─────────────────────────────── */
+.ijm-popup .middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1px;
+  gap: 20px;
+}
+
+.ijm-popup .animation-container {
+  position: relative;
+  width: 150px; height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.ijm-popup .middle-content { text-align: center; }
+
+.ijm-popup .middle h1 {
+  color: #d32f2f;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ijm-popup .middle p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.ijm-popup .middle button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.ijm-popup .middle button:hover { background-color: #005f8d; }
+
+/* “Dismiss” link */
+.ijm-popup #dismiss {
+  margin-top: 10px;
+  color: #0077b6;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* ── bottom bar ─────────────────────────────────── */
+.ijm-popup .bottom {
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+.ijm-popup .bottom a {
+  color: #0077b6;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* ── spinning icon ──────────────────────────────── */
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.ijm-popup .responsibility-icon {
+    height: 142px;   /* ← change */
+    width : 170px;   /* ← change */
+  animation: spin 7s linear infinite;
+}
+
+/* List styling (alt-websites popup) */
+#alternative-websites ul { margin: 0; padding: 0; }
+#alternative-websites ul li { margin: 5px 0; font-size: 16px; }
+#alternative-websites ul li a { text-decoration: none; color: #0077b6; }
+#alternative-websites ul li a:hover { text-decoration: underline; }
